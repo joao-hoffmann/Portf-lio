@@ -5,10 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio</title>
     <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
         header {
             DISPLAY: flex;
             justify-content: space-between;
             padding: 20px 60px;
+            background-color: rgb(40, 143, 40);
+        }
+        header ul{
+            display: flex;
+            gap: 30px;
+            list-style: none;
+        }
+        header a{
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+        }
+        body{
+            background-color:rgb(21, 207, 120);
+        }
+        button{
+            background-color: rgb(40, 143, 40);
+        }
+        .section{
+            border-bottom: 2px solid grey;
+            display: flex;
+            justify-content: space-around;
+            padding: 60px;
+        }
+        .direita img{
+            width: 75%;
+            box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.5);
+            border-radius: 30px;
+        }
+        .direita, .esquerda{
+            width: 50vw;
         }
     </style>
 </head>
@@ -18,7 +52,7 @@
             <div class="logo">
                 <p>João Hoffmann</p>
             </div>
-            <nav>
+             <nav>
                 <ul>
                     <li><a href="#home">Home</a></li>
                     <li><a href="#sobre">Sobre</a></li>
@@ -26,9 +60,22 @@
                 </ul>
             </nav>
         </header>
-        <div class="selection"id="home"
-    </main>
-    <h1>Portfólio</h1>
-    <p>Meu Nome é João Victor Hoffmann Godinho, tenho 16 anos, Estou cursando o ensino médio entegrado com o técnico em Desenvovimento de Sistemas na Escola Sesi Senai.</p>
+        <div class="section"id="home">
+            <div class="esquerda">
+                <h1>Bem vindo</h1>
+                <p>Esse é o meu Portfólio de desenvolvimento de sistemas</p>
+            </div>
+            <div class="direita">
+                <img src="https://i.pinimg.com/originals/a2/54/02/a25402d7a0364c3075ae5be9af8d4ec8.gif">
+            </div>
+        </div>
+<div class="section" id="#sobre"> 
+    <div class="esquerda"> 
+        <h1>Portfólio</h1>
+        <p>Meu Nome é João Victor Hoffmann Godinho, tenho 16 anos, Estou cursando o ensino médio entegrado com o técnico em Desenvovimento de Sistemas na Escola Sesi Senai.</p>   
+    </div>
+    </div>   
+</main>
 </body>
 </html>
+<button> Sobre mim</button> 
